@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.4"
+  - "3.5"
+env:
+  - DJANGO=1.8
+  - DJANGO=1.9
+install:
+  - pip install -r requirements/test.txt
+script:
+  - python runtests.py
