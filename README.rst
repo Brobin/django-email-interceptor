@@ -4,6 +4,12 @@ Email Interceptor
 
 Django email interceptor provides email backends to intercept outgoing mail and mail them to a specified email instead.
 
+-------
+
+|python| |pypi| |license| |travis| |django|
+
+-------
+
 Quickstart
 ==========
 
@@ -41,3 +47,23 @@ To run tests, install the requirements for testing and run!
     pip install -r requirements/test.txt
     python runtests.py
 
+
+.. |python| image:: https://img.shields.io/pypi/v/django-email-interceptor.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/django-email-interceptor/
+    :alt: Supported Python versions
+
+.. |pypi| image:: https://img.shields.io/pypi/pyversions/django-email-interceptor.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/django-email-interceptor/
+    :alt: Latest Version
+
+.. |license| image:: https://img.shields.io/pypi/l/django-email-interceptor.svg?style=flat-square
+    :target: https://pypi.python.org/pypi/django-email-interceptor/
+    :alt: License
+
+.. |travis| image:: https://img.shields.io/travis/Brobin/django-email-interceptor.svg?style=flat-square
+    :target: https://travis-ci.org/Brobin/django-email-interceptor/
+    :alt: Travis CI
+
+.. |django| image:: https://img.shields.io/badge/Django-1.8, 1.9-orange.svg?style=flat-square
+    :target: http://djangoproject.com/
+    :alt: Django 1.7, 1.8
