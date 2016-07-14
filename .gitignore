@@ -1,0 +1,12 @@
+# Python cruft
+*.pyc
+__pycache__
+
+# virtualenv
+venv
+
+# coverage
+.coverage
+
+# setup
+django_email_interceptor.egg-info/
