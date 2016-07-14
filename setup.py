@@ -1,12 +1,8 @@
 import os
 from setuptools import setup
 
-
-def read_file(filename):
-    path = os.path.abspath(os.path.dirname(__file__))
-    filepath = os.path.join(path, filename)
-    return open(filepath).read()
-
+with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
+    README = readme.read()
 
 setup(
     name='django-email-interceptor',
@@ -27,7 +23,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ),
-    long_description=read_file('README.rst'),
+    long_description=README,
     test_suite="runtests.runtests",
     zip_safe=False,
 )
