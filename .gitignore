@@ -10,3 +10,5 @@ venv
 
 # setup
 django_email_interceptor.egg-info/
+build/
+dist/
