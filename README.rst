@@ -61,7 +61,7 @@ To run tests, install the requirements for testing and run!
     :alt: License
 
 .. |travis| image:: https://img.shields.io/travis/Brobin/django-email-interceptor.svg?style=flat-square
-    :target: https://travis-ci.org/Brobin/django-email-interceptor/
+    :target: https://travis-ci.org/BuluBox/django-email-interceptor/
     :alt: Travis CI
 
 .. |django| image:: https://img.shields.io/badge/Django-1.8, 1.9-orange.svg?style=flat-square
